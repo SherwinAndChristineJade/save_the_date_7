@@ -40,7 +40,7 @@
             transition: background-color 0.3s ease;
         }
 
-        .response-buttons .open {
+        .response-buttons .next {
             background-color: #3f5732;
             color: white;
         }
@@ -49,17 +49,17 @@
 <body>
 <div class="invitation-card">
 
-    <img src="src/img/cover.jpeg" alt="Image">
+    <img src="src/img/image0.jpeg" alt="Image">
     <div class="response-buttons">
-        <button class="open" onclick="Open()">OPEN</button>
+        <button class="next" onclick="whatsNext()">What's Next</button>
     </div>
 
 </div>
 
 <script>
-    function Open() {
+    function whatsNext() {
         // Redirect to a confirmation page
-        window.location.href = '1mid_page.html';
+        window.location.href = '2mid_page.html';
     }
 </script>
 </body>
